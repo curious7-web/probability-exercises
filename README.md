@@ -11,7 +11,7 @@ Mostly standard tools from an intro probability course:
 - small Markov chains (finite state, no measure theory)
 - basic counting with complements
 
-Nothing here uses advanced machinery (no measure theory, no martingales, no generating functions).
+Nothing here uses advanced machinery (no measure theory, no martingales, no generating functions). Curated subset; I solved more than I wrote up because writing clean derivations takes longer than computing the answers.
 
 ## What This Is Not
 

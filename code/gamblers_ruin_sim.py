@@ -7,7 +7,7 @@ def trial():
             money += 1
         else:
             money -= 1
-    return money == 4  # return True if we reached 4 first
+    return money == 4
 
 def main(num_trials=100_000):
     hits = 0

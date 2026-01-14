@@ -2,13 +2,14 @@ import random
 
 def trial():
     X = random.randint(1, 6)
+
     if X >= 4:
         return X
     else:
         Y = random.randint(1, 6)
         return Y
 
-def main(num_trials=100_000):
+def main(num_trials=100_00):
     total = 0
     for _ in range(num_trials):
         total += trial()

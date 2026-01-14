@@ -9,7 +9,7 @@ def trial():
         seen.add(coupon)
     return draws
 
-def main(num_trials=100_000):
+def main(num_trials=100_00):
     total = 0
     for _ in range(num_trials):
         total += trial()

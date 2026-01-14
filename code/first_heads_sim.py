@@ -7,7 +7,7 @@ def trial(p=0.5):
         if random.random() < p:
             return flips
 
-def main(num_trials=100_000, p=0.5):
+def main(num_trials=100_00, p=0.5):
     total = 0
     for _ in range(num_trials):
         total += trial(p)

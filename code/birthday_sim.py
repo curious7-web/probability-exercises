@@ -1,15 +1,15 @@
 import random
 
 def trial(n=23):
-    seen = set()
+    birthdays = set()
     for _ in range(n):
         b = random.randint(1, 365)
-        if b in seen:
-            return True
-        seen.add(b)
-    return False
+        if b in birthdays:
+            return True  
+        birthdays.add(b)
+    return False  
 
-def main(num_trials=100_000, n=23):
+def main(num_trials=100_00, n=23):
     collisions = 0
     for _ in range(num_trials):
         if trial(n):

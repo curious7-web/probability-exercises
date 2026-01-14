@@ -1,0 +1,1 @@
+Short writeups of classic probability, expected-value, and stopping-time problems. Each solution includes a clear analytical derivation, with selected problems verified by small Monte Carlo simulations in Python.
